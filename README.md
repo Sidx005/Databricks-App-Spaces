@@ -49,3 +49,23 @@ Applications built on Databricks typically utlize popular open-source Python or 
 </a>
 
 <p style={width:'100%'; text-align:'center'}>Sample Databricks App Architecure [Source: hippylabs.com]</p>
+
+
+# Permissions Managed By App Spaces
+
+The security and access framework within an App Space is divided into three layers: workspace permissions, user authorization scopes, and compute policies.
+
+
+1. **Workspace-Level Permissions**
+App Spaces utilize standard Role-Based Access Control (RBAC) to govern who can manage the environment:
+- **CAN CREATE APP:** Controls which groups of builders or developers are allowed to deploy new serverless micro-apps into that specific space.
+- **CAN MANAGE:** Grants permissions to modify settinfs , delete apps, or reconfigure underlying environment credentials.
+- **CAN READ / CAN USE:** Allows end-users or specifed account groups to access, interact with, and execute the applications hosted within the space.
+  
+2. **User Authorization Scope (On-Behalf-Of)**
+When an app needs to pull data dynamically tailored to the person looking at it, it uses an On-Behalf-Of (OBO) execution model. App Spaces allow admins to enforce a strict capability ceiling on what the app can ask to do on a user's behalf. By default, a space leverages a Data + AI preset containing 11 scopes, including:
+
+- **sql:restricted-query:** Safely routes read-only queries to a SQL warehouse.
+- **genie: ** • Grants permission to interact with AI/BI Genie spaces.
+- **catalog.tables:read, catalog.schemas:read, and catalog.catalogs:read:** Restricts the app to reading metadata
+- **model-serving, ai-functions, and ai-gateway:** Permits access to specific Mosaic AI serving endpoints.
