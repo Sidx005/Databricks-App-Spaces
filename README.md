@@ -45,7 +45,7 @@ Applications built on Databricks typically utlize popular open-source Python or 
 2. **Interactive Data Dashboards**: Building Dash or Shiny Applications thst pull live telemetry, time-metrics or operational KPIs from Databricks SQL Warehouses.
 3. **Custom Machine Learning Tools :** Internal Tools for expert data-labelling tasks, operaional dashboards for processing specialized health data, or demand forecasting visualizers.
 <a href="https://hiflylabs.com/blog/2024/10/9/databricks-apps-first-look">
-  <img width="1158" height="1040" alt="Click here" src="https://github.com/user-attachments/assets/e7e56aae-e259-4de1-8bef-8e2e60039b0c">
+  <img width="900" height="900" alt="Click here" src="https://github.com/user-attachments/assets/e7e56aae-e259-4de1-8bef-8e2e60039b0c">
 </a>
 
 <p style={width:'100%'; text-align:'center'}>Sample Databricks App Architecure [Source: hippylabs.com]</p>
@@ -53,7 +53,7 @@ Applications built on Databricks typically utlize popular open-source Python or 
 
 <a href="https://hiflylabs.com/blog/2024/10/9/databricks-apps-first-look">
 
-<img width="503" height="503" alt="image" src="https://github.com/user-attachments/assets/306f8be6-6c94-4809-972c-7b098b78be91" />
+<img width="900" height="900" alt="image" src="https://github.com/user-attachments/assets/306f8be6-6c94-4809-972c-7b098b78be91" />
 
 </a>
 
