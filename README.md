@@ -53,7 +53,7 @@ Applications built on Databricks typically utlize popular open-source Python or 
 
 <a href="https://hiflylabs.com/blog/2024/10/9/databricks-apps-first-look">
 
-<img width="5003 height="503" alt="image" src="https://github.com/user-attachments/assets/306f8be6-6c94-4809-972c-7b098b78be91" />
+<img width="503" height="503" alt="image" src="https://github.com/user-attachments/assets/306f8be6-6c94-4809-972c-7b098b78be91" />
 
 </a>
 
