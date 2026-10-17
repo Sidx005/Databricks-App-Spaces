@@ -152,3 +152,21 @@ SHOW GRANTS ON TABLE workspace.finance_demo.finance_data;
 
 
 <img width="719" height="425" alt="image" src="https://github.com/user-attachments/assets/ea8955b8-b220-40e1-9676-479609cd458c" />
+
+
+
+### 4. RBAC Proof
+
+**desaisiddharth1246** account belongs to finance group, so they cannot access the sales schema, as visble from the below snippet, we got error. But they can access the finance data.
+
+<img width="582" height="651" alt="image" src="https://github.com/user-attachments/assets/2fcc953b-f993-470b-92d9-c8c17b8a18c1" />
+
+
+
+
+<img width="540" height="687" alt="image" src="https://github.com/user-attachments/assets/1e4be49f-f447-4c48-bc6d-d63957e06972" />
+
+
+
+
+
