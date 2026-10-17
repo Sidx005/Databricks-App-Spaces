@@ -98,6 +98,23 @@ SHOW GRANTS ON TABLE workspace.sales_demo.sales_data;
 SHOW GRANTS ON TABLE workspace.finance_demo.finance_data;
 ```
 
+
+
+## Explaination:
+- **GRANT** - Gives a permission to a user or group
+- **USE CATALOG** - Allows the principal to access objects within the catalog, subject to additional permissions.
+- **ON CATALOG workspace** - specifies the catalog on which the permission applies.
+- **TO demo-sales-users** - asigns the permissions to the sales group.
+- **USE SCHEMA** - Allows the group to use the workspace catalog
+- **ON SCHEMA worspace.sales_demo**- Identifes the sales_demo schema inside the workspace catalog.
+- **TO demo-sales-users** - grants this permission to the Sales group.
+- **GRANT SELECT** - allows the group to read and query the table's data.
+- **ON TABLE** - specifies the table on which the permission is to be granted
+- **TO** - Grants the specified (eg SELECT i.e Read ) access to the Sales group 
+
+
+- **SHOW GRANTS** - Displays the permissions granted on the Sales table, including the relevant principals and privileges.
+  
 ## Snippets
 ### 1. Workspace Hierarchy
 
