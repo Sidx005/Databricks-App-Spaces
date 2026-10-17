@@ -129,3 +129,26 @@ SHOW GRANTS ON TABLE workspace.finance_demo.finance_data;
 <img width="471" height="366" alt="image" src="https://github.com/user-attachments/assets/d2c73568-4b37-4307-8b86-a008cb0e61f3" />
 <img width="541" height="725" alt="image" src="https://github.com/user-attachments/assets/d43664fd-1de7-47a1-9877-3a01ab453ce3" />
 
+
+### 3. Users (Identity & Access)
+
+<img width="716" height="498" alt="image" src="https://github.com/user-attachments/assets/35daa0da-eb77-4277-bea1-de722bbe9375" />
+
+
+### 3. Groups (Identity & Access)
+---
+
+**a. Sales User Group**
+
+---
+
+<img width="437" height="396" alt="image" src="https://github.com/user-attachments/assets/d6cd2b67-a221-455c-977e-187f3c9ca5bf" />
+
+--------
+
+**b. Finance User Group**
+
+--- 
+
+
+<img width="719" height="425" alt="image" src="https://github.com/user-attachments/assets/ea8955b8-b220-40e1-9676-479609cd458c" />
