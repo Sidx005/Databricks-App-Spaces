@@ -100,13 +100,13 @@ SHOW GRANTS ON TABLE workspace.finance_demo.finance_data;
 
 
 
-## Explaination:
+## Explanation:
 - **GRANT** - Gives a permission to a user or group
 - **USE CATALOG** - Allows the principal to access objects within the catalog, subject to additional permissions.
 - **ON CATALOG workspace** - specifies the catalog on which the permission applies.
-- **TO demo-sales-users** - asigns the permissions to the sales group.
+- **TO demo-sales-users** - assigns the permissions to the sales group.
 - **USE SCHEMA** - Allows the group to use the workspace catalog
-- **ON SCHEMA worspace.sales_demo**- Identifes the sales_demo schema inside the workspace catalog.
+- **ON SCHEMA workspace.sales_demo** - Identifies the sales_demo schema inside the workspace catalog.
 - **TO demo-sales-users** - grants this permission to the Sales group.
 - **GRANT SELECT** - allows the group to read and query the table's data.
 - **ON TABLE** - specifies the table on which the permission is to be granted
@@ -135,7 +135,7 @@ SHOW GRANTS ON TABLE workspace.finance_demo.finance_data;
 <img width="716" height="498" alt="image" src="https://github.com/user-attachments/assets/35daa0da-eb77-4277-bea1-de722bbe9375" />
 
 
-### 3. Groups (Identity & Access)
+### 4. Groups (Identity & Access)
 ---
 
 **a. Sales User Group**
@@ -155,7 +155,7 @@ SHOW GRANTS ON TABLE workspace.finance_demo.finance_data;
 
 
 
-### 4. RBAC Proof
+### 5. RBAC Proof
 
 **desaisiddharth1246** account belongs to finance group, so they cannot access the sales schema, as visble from the below snippet, we got error. But they can access the finance data.
 

@@ -2,7 +2,7 @@
 # Creating an App Space
 
 
-1. Sign in with workplace managed  cloud account ( You must be a workspace admin to create an App Space.)
+1. Sign in with your workspace-managed cloud account (you must be a workspace admin to create an App Space).
 2.  You can create one in either of these ways:
    -  a. In the Databricks Apps UI, click App Spaces, then + New Space.
    -  b. Use the Databricks REST API or the Terraform provider.

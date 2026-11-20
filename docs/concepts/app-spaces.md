@@ -14,4 +14,4 @@ An app being visible or usable does not by itself grant access to its datasets. 
 
 App Spaces are useful when a team wants a common governance boundary for multiple apps and their builders, rather than configuring every app environment independently. Administrators can constrain capabilities and access while Unity Catalog continues to enforce data privileges.
 
-For setup details, see [Create an App Space](../setup/create-app-space.md) and [Permissions and API scopes](../setup/permissions.md).
+For setup details, see [Create an App Space](../setup/CreateAppSpaces.md) and [Permissions and API scopes](../setup/Permissions.md).

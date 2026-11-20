@@ -217,9 +217,11 @@
 
 # Snippets
 
-**1. Sales Table (workspace.sales_demo.sales_data)
-**
+**1. Sales Table (workspace.sales_demo.sales_data)**
+
 <img width="505" height="665" alt="image" src="https://github.com/user-attachments/assets/e0474b62-881a-482e-a9e8-b7a86839681c" />
+
+<br/>
 
 **2. Finance Table (workspace.finance_demo.finance_data)**
 
