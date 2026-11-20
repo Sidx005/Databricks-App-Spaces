@@ -9,4 +9,4 @@ You need a Databricks workspace account with the appropriate administrator permi
 
 After creation, configure space-level permissions and authorization settings for the intended developers and users. App Space access and sharing access to an individual app are separate settings.
 
-For the original step-by-step screenshots, see [`CreateAppSpaces.md`](../../CreateAppSpaces.md). For the demo context, see [`AppSpacesDemo.md`](../../AppSpacesDemo.md).
+For the original step-by-step screenshots, see [`../CreateAppSpaces.md`](../CreateAppSpaces.md). For the demo context, see [`../../AppSpacesDemo.md`](../../AppSpacesDemo.md).

@@ -13,4 +13,4 @@ Available choices described in this repository include **Data + AI**, **Read onl
 
 Scopes limit API capabilities; they do not grant the user permission to data. The signed-in user's existing Unity Catalog privileges still apply. App Space permissions, app-sharing permissions, and data permissions should be tested separately.
 
-See the original reference for scope descriptions and screenshots in [`Permissions.md`](../../Permissions.md), and the end-to-end results in [`AppSpacesDemo.md`](../../AppSpacesDemo.md).
+See the original reference for scope descriptions and screenshots in [`../Permissions.md`](../Permissions.md), and the end-to-end results in [`../../AppSpacesDemo.md`](../../AppSpacesDemo.md).

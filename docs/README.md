@@ -1,6 +1,6 @@
 # Documentation guide
 
-The repository is centered on [`../AppSpacesDemo.md`](../AppSpacesDemo.md), the primary Sales & Finance Insights walkthrough. Use these topic pages for focused reference:
+The repository is centered on [`../AppSpacesDemo.md`](../AppSpacesDemo.md), the primary Sales & Finance Insights walkthrough. Use these organized topic pages for reference:
 
 - [App Space concepts](concepts/app-spaces.md)
 - [Create an App Space](setup/create-app-space.md)
@@ -8,4 +8,9 @@ The repository is centered on [`../AppSpacesDemo.md`](../AppSpacesDemo.md), the 
 - [Unity Catalog access](data/unity-catalog-access.md)
 - [Sample datasets](data/sample-datasets.md)
 
-These pages summarize and organize the existing references. The original top-level guides remain available while links and bookmarks can transition to the new paths.
+Original detailed guides are currently kept in this directory while the topic pages provide a navigable overview:
+
+- [Original App Space creation guide](CreateAppSpaces.md)
+- [Original permissions guide](Permissions.md)
+- [Original sample tables](Tables.md)
+- [Original Unity Catalog access guide](UnityCatalogAccess.md)
